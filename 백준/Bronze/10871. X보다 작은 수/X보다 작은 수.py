@@ -6,3 +6,14 @@ A = list(map(int,input().split()))
 for i in A:
     if i<X:
         print(i, end=' ')
+
+## 이 풀이를 하면서 굳이 N을 받을 이유가 있나..? 라는 생각을 했음
+
+##------------------------------------------------------------------------------
+## 그래서 N을 활용해서 다시 짠 코드
+N, X = map(int, input().split())
+A = list(map(int,input().split()))
+
+for i in range(N):
+    if A[i] < X :
+        print(A[i], end=' ')
