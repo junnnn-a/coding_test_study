@@ -2,6 +2,7 @@
 
 A, B = map(int, input().split())
 
+## 문제 분류가 함수여서 함수로 만들어서 출력하기!!
 def math(A, B):
     return (A+B)*(A-B)
 
