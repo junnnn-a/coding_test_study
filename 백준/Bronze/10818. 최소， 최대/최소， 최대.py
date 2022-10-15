@@ -14,6 +14,7 @@ print(min(numbers), max(numbers))
 sys 를 사용할 때는 import sys 해줘야함!
 
 <바꾼코드>
+
 import sys
 N = int(input())
 numbers = list(map(int,  sys.stdin.readline().split()))
