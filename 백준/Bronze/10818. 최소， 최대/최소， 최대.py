@@ -1,5 +1,4 @@
 ## N개의 정수가 주어진다. 이때, 최솟값과 최댓값을 구하는 프로그램
-
 N = int(input())
 
 # numbers = [int(input()) for i in range(N)]    ## 이건 우리가 input 을 한 줄씩 받을 때 사용!
@@ -15,6 +14,7 @@ print(min(numbers), max(numbers))
 sys 를 사용할 때는 import sys 해줘야함!
 
 <바꾼코드>
+import sys
 N = int(input())
 numbers = list(map(int,  sys.stdin.readline().split()))
 print(min(numbers), max(numbers))
