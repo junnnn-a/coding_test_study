@@ -8,3 +8,7 @@ N = int(input())
 numbers = list(map(int,  input().split()))
 
 print(min(numbers), max(numbers))
+
+## 채점결과의 문제점 -> 시간이 많이 걸린 것 같음,,, (코테에서는 시간이 중요..ㅜ)
+## 그래서 input()은 시간이 많이 필요로 하니까 담부터는 input() 대신에 sys.stdin.readline() 을 사용해야겠다!
+## 위에걸 사용할 때는 import sys 해줘야함!
