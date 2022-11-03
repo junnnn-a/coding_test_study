@@ -1,9 +1,9 @@
 def solution(num):
-
-#     if num % 2 == 0 :
-#         return 'Even'
-#     else :
-#         return 'Odd'
-
-    ## 한 줄로 간단하게 return
-    return 'Even' if num&1 == 0 else 'Odd'
+    ## num 가 2로 나눠서 0이 되면 (짝수라면)
+    if num % 2 == 0 :
+        ## "Even" 을 return
+        return "Even"
+    ## 홀수라면
+    else:
+        ## "Odd" 를 return
+        return "Odd"
