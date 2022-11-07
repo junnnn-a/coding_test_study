@@ -7,7 +7,6 @@ def solution(n):
 
     ## i가 2라면 2를 제외한 2의 배수를 삭제
     for i in range(2,n+1):
-
         ## i가 아까 만들어둔 number에 있다면! (number는 집합(set)
         if i in number:
             ## 그 해당 배수는 싹 다 삭제를 시킴
