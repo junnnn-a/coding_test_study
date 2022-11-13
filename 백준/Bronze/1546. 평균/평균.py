@@ -9,7 +9,7 @@ score = (list(map(int, input().split())))
 max_score = max(score)
 result = 0
 
-## score 리스트를 반복
+## score list를 반복
 for i in score:
     ## 이렇게 점수 계산을 한 결과의 평균을 반환
     result += i/max_score*100
