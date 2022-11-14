@@ -7,6 +7,7 @@ def verifications():
     ## 각 자릿수의 제곱의 합 구하기ㅣ
     for i in range(len(numbers_list)):
         hap += int(numbers_list[i])**2
+    
     ## 합을 10으로 나눠서 나머지를 출력하기
     answer = hap % 10
     return answer
