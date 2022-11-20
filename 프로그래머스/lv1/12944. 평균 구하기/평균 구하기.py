@@ -7,6 +7,5 @@ def solution(arr):
         ## 요소를 아까 빈 변수 answer에 저장
         answer += i
     
-    ## 평균을 구해야 하니까 arr 요소를 다 더한거를 arr 배열의 길이로 나눠주기!
-    ## 평균 (자료값의 총합 / 자료의 개수)
+    ## 평균(자료값의 총합 / 자료의 개수)을 구해야 하니까 arr 요소를 다 더한거를 arr 배열의 길이로 나눠주기!
     return (answer / len(arr))
