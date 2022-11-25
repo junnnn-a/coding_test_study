@@ -11,7 +11,6 @@ def solution(arr):
         # print(arr)
         # del arr_1[0]
         for i in arr:
-            # if i in arr_1:
             answer.append(i)
                 
     return answer
