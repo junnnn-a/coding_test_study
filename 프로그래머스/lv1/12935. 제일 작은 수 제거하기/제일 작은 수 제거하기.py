@@ -9,7 +9,6 @@ def solution(arr):
         # print(min(arr))
         arr.remove(min(arr))
         # print(arr)
-        # del arr_1[0]
         for i in arr:
             answer.append(i)
                 
