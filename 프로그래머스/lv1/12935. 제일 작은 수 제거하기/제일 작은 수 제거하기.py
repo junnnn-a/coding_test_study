@@ -5,8 +5,6 @@ def solution(arr):
         answer.append(-1)
         
     else:
-        # arr_1 = sorted(arr)
-        # print(min(arr))
         arr.remove(min(arr))
         # print(arr)
         for i in arr:
