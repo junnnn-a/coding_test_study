@@ -6,7 +6,6 @@ def solution(arr):
         
     else:
         arr.remove(min(arr))
-
         for i in arr:
             answer.append(i)
                 
