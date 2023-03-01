@@ -3,6 +3,7 @@
 def solution(arr):
     answer = []
     
+    ## 만약에 배열 arr의 길이가 1이라면 (배열에 값이 하나라면)
     if len(arr)==1:
         answer.append(-1)
     else:
