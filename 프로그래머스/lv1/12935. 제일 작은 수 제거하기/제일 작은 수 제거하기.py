@@ -6,6 +6,8 @@ def solution(arr):
     ## 만약에 배열 arr의 길이가 1이라면 (배열에 값이 하나라면)
     if len(arr)==1:
         answer.append(-1)
+    
+    ## 배열 arr의 길이가 1이 아닌 경우!
     else:
         min_num = min(arr)
         # answer.append(1)
