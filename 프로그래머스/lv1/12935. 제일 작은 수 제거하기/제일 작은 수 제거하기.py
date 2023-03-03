@@ -5,12 +5,14 @@ def solution(arr):
     
     ## 만약에 배열 arr의 길이가 1이라면 (배열에 값이 하나라면)
     if len(arr)==1:
+        ## 바로 -1을 리턴
         answer.append(-1)
     
     ## 배열 arr의 길이가 1이 아닌 경우!
     else:
+        ## 배열에 있는 최솟값을 뽑아서 배열 arr에서 제거 후 리턴
         min_num = min(arr)
-        # answer.append(1)
         arr.remove(min_num)
         answer = arr
+        
     return answer
