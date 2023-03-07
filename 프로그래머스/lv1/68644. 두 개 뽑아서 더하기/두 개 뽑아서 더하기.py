@@ -5,4 +5,5 @@ def solution(numbers):
             answer.append(numbers[i]+numbers[j])
     answer = list(set(answer))
     answer.sort()
+    
     return answer
