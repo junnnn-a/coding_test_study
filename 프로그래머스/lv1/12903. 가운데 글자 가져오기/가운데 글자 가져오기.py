@@ -12,6 +12,6 @@ def solution(s):
     else:
         ## 길이를 2로 나눠서 해당 index와 그 전 글자까지 함께 반환
         answer = len(s)//2
+
         ## 문자열 2개를 ',' 로 이으면 공백이 포함되지만 '+' 로 이으면 공백 없이 이어진다!
         return s[answer-1]+s[answer]
-    # print(answer)
