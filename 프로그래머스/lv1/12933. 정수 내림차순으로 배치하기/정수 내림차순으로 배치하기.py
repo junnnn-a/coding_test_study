@@ -11,5 +11,5 @@ def solution(n):
         answer.append(i)
         answer.sort()
     
-    ## 정렬 된 리스트를 거꾸로 나열해서 문자열로 변경 후 다시 정수로 반환!
+    ## 정렬 된 리스트를 거꾸로 나열해서 문자열로 변경 후 다시 정수로 return
     return int(''.join(reversed(answer)))
