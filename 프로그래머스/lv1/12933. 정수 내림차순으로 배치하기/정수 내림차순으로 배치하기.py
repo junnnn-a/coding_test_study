@@ -6,7 +6,7 @@ def solution(n):
     ## 정수 n을 문자열로 변경 -> 수를 하나하나 떼서 정렬하기 위해서
     n = str(n)
     
-    ## 문자열을 반복하는데 자릿수에 따라서 떼서 리스트에 추가 후 정렬
+    ## 문자열을 반복할 때 자릿수를 떼어서 리스트에 추가 후 정렬
     for i in n:
         answer.append(i)
         answer.sort()
