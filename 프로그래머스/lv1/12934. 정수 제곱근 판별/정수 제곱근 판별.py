@@ -1,7 +1,7 @@
 def solution(n):
-    
-    if (n ** 0.5) % 1 ==0:
-        return ((n ** 0.5) + 1) ** 2
-    
+    answer = 0
+    if (n ** (1/2)) %1==0:
+        answer += ((n ** (1/2))+1)**2
     else:
-        return -1
+        answer += -1
+    return answer 
