@@ -6,6 +6,7 @@ def solution(arr1, arr2):
     for i in range(len(arr1)):
         ## 전체 길이 말고 그 안에 원소의 길이만큼 반복
         for j in range(len(arr1[0])):
+            
             ## 새로운 배열을 만들기 보다는 그냥 arr1 배열에 arr2 배열의 원소들을 더해주고 반환
             arr1[i][j] += arr2[i][j]
             
