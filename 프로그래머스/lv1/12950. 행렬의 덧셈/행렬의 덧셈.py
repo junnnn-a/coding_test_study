@@ -4,6 +4,7 @@ def solution(arr1, arr2):
     
     ## arr1과 arr2의 길이는 동일하니까 그 길이만큼 반복
     for i in range(len(arr1)):
+        
         ## 전체 길이 말고 그 안에 원소의 길이만큼 반복
         for j in range(len(arr1[0])):
             
