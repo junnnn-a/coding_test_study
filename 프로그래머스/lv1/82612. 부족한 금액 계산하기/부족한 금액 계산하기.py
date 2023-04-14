@@ -1,12 +1,10 @@
 def solution(price, money, count):
     answer = 0
     
-    for i in range(count):
-        answer += price * (i+1)
-
-    result = answer - money
+    for i in range(1, count+1):
+        answer += price * i
     
-    if result > 0 :
-        return result
-    else :
+    if money > answer:
         return 0
+        
+    return abs(answer-money)
