@@ -8,7 +8,7 @@ def solution(price, money, count):
         ## price(원래 금액) 를 i만큼 증가해서 다 더해주고 내가 가지고 있는 돈에서 빼서 반환 (내가 부족한 금액을 return)
         answer += price * i
     
-    ## 만약에 금액이 부족하지 않으면 0을 return
+    ## 만약에 가지고 있는 금액이 부족하지 않으면 0을 return
     if money > answer:
         return 0
     
