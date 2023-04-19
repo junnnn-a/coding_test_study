@@ -14,5 +14,6 @@ def solution(a, b):
         ## b부터 a+1까지 하나씩 answer에 더하기!
         for i in range(b, a+1):
             answer += i
-            
+    
+    ## answer 리스트 반환
     return answer
