@@ -5,7 +5,7 @@ def solution(a, b):
     
     ## a, b의 길이가 같으니까 배열의 길이만큼 반복
     for i in range(len(a)):
-        ## 두 배열을 내적한 후 반환 (자릿수끼리 곱해서 answer에 더해주기)
+        ## 두 배열을 내적한 후 반환(자릿수끼리 곱해서 answer에 더해주기)
         answer += a[i] * b[i]
         
     return answer
