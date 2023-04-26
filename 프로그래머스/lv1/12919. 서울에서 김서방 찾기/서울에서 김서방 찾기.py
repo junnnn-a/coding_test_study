@@ -2,6 +2,7 @@
 
 def solution(seoul):
     answer = 0
+    
     ## seoul 리스트의 길이만큼 반복 -> 나중에 인덱스 값을 저장하기 위해서 리스트 길이만큼 반복~
     for i in range(len(seoul)):
 
