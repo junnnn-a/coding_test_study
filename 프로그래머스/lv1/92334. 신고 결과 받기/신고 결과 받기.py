@@ -34,7 +34,6 @@ def solution(id_list, report, k):
             jail.append(pair[0])
     
     # print(report_people)
-    # print(id_list)
     # print(problem_people)
     for pair in zip(report_people, problem_people):
         
