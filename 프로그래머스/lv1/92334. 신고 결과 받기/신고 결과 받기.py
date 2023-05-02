@@ -29,7 +29,6 @@ def solution(id_list, report, k):
         count_report.append(problem_people.count(i))
     
     for pair in zip(answer_set, count_report):
-        # print(pair)
         if pair[1] >= k :
             jail.append(pair[0])
     
