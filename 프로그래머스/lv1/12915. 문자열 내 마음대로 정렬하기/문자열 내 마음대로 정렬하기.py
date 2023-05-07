@@ -17,5 +17,3 @@ def solution(strings, n):
         answer.append(string[i][1:])
     
     return answer
-
-## 다음에 lambda 로 풀어보기!! 
