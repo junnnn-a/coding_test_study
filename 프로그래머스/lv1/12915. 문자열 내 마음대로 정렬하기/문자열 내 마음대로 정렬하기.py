@@ -9,7 +9,7 @@ def solution(strings, n):
         i = i[n]+i
         string.append(i)
     
-    ## 그 후에 정렬
+    ## 
     string = sorted(string)
     
     ## 이제 해당 인덱스의 문자의 요소를 붙힌 거를 떼서 answer 리스트에 추가
