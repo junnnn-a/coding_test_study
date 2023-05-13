@@ -32,7 +32,6 @@ def solution(id_list, report, k):
         if pair[1] >= k :
             jail.append(pair[0])
     
-    # print(problem_people)
     for pair in zip(report_people, problem_people):
         
         if pair[1] in jail :
