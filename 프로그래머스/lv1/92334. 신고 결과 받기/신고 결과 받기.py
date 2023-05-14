@@ -23,7 +23,6 @@ def solution(id_list, report, k):
         report_people.append(report_split[i][0])
         
     answer_set = list(set(problem_people))
-    # print(answer_set)
     
     for i in answer_set:
         count_report.append(problem_people.count(i))
