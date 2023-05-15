@@ -44,7 +44,6 @@ def solution(id_list, report, k):
         
     # for j in id_list:
     #     count_reporter.append(answer.count(j))
-    # # print(answer[1])
     return count_reporter
 
 
