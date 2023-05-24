@@ -1,3 +1,5 @@
+## num이 n의 배수이면 1을 return n의 배수가 아니라면 0을 return하도록 solution 함수
+
 def solution(num, n):
     if num % n == 0:
         return 1
