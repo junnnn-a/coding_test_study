@@ -3,6 +3,7 @@ def solution(numbers, hand):
     left_hand = 10
     right_hand = 12
     
+    
     for i in numbers:
         if i in [1, 4, 7]:
             answer += 'L'
